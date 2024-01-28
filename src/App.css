@@ -5,27 +5,35 @@
   text-align: center;
 }
 
-
-
-
 .directions {
-  height: 20%;
+  height: 40%;
   width: 30%;
   background-color: orange;
   color: rgb(26, 24, 24);
-  /* font-size: 12px; */
   position: absolute;
   top: 22px;
-  /* left: 0; */
   bottom: 0;
   right: 22px;
   z-index: 999;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   text-align: center;
   justify-content: center;
   font-size: .8rem;
-  /* color: rgba(0,0,0,0.6); */
   background: #cbafafea;
-  /* padding: 1rem 1.5rem; */
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  align-items: left;
+}
+
+li::before {
+  content: '✨';
+  margin-right: .5em;
+}
+
+button {
+  background-color: teal;
 }
