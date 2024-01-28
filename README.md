@@ -1,6 +1,12 @@
 ### Google Maps API Testing
 
-**APIs used**
+
+[video reference to follow along](https://youtu.be/tFjOIZGCvuQ?si=nv0c1p21gFu9j-lo)
+[repo](https://github.com/visgl/react-google-maps/tree/main)
+
+<display>
+  <summary>APIs used </summary>
+</display>
 
 
-[video reference](https://youtu.be/tFjOIZGCvuQ?si=nv0c1p21gFu9j-lo)
+[Directions API](https://developers.google.com/maps/documentation/directions)
