@@ -1,14 +1,15 @@
-
+import "../App.css";
 
 const About = () => {
+  return (
+    <div className="about-container">
+      <h2> Git to know Nicki 😇</h2>
+      
+      <button>
+        <a href="https://github.com/anickacodes"> GitHub </a>
+      </button>
+    </div>
+  );
+};
 
-    return (
-        <div className="about-container">
-            <h2> All About Meeeeeeee</h2>
-            <a href='https://github.com/anickacodes'>GitHub</a>
-        </div>
-    )
-}
-
-
-export default About
+export default About;

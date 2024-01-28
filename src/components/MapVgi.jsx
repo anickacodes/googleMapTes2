@@ -12,12 +12,12 @@ const MapVgi = () => {
   return (
     <div
       className="map2-container"
-      style={{ height: "100vh", width: "100%", padding: "10px" }}
+      style={{ height: "100vh", width: "100%", padding: "8px"}}
     >
       <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
         <Map
           center={position}
-          zoom={9}
+          zoom={10}
           mapId={import.meta.env.VITE_MAP_ID}
           fullscreenControl={false}
         >
@@ -83,7 +83,7 @@ function Directions() {
           <li key={route.summary}>
             <button onClick={() => setRouteIndex(index)}>
               {route.summary}
-            </button>{" "}
+            </button>
           </li>
         ))}
       </ul>

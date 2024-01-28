@@ -4,7 +4,7 @@ const NavBarOne = () => {
   return (
     <nav>
       <Link className="site-title" to="/">
-        Site Name
+        Testing
       </Link>
       <ul>
         <Link to="/"> Home </Link>
