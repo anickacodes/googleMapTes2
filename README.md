@@ -10,3 +10,5 @@
 
 
 [Directions API](https://developers.google.com/maps/documentation/directions)
+
+![sample data](src/assets/Map-Sample.png)
