@@ -19,7 +19,15 @@ body {
   /* display: flex; */
   place-items: center;
   min-width: 340px;
-  min-height: 100vh;
+  height: 100vh;
+  background: linear-gradient(-125deg, #3cced3ab, #333333bb, #d277ce98);
+  animation: gradient 12s ease alternate;
+  background-size: 200% 200%;
+  /* transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s; */
 }
 /* 
 a {
@@ -69,3 +77,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 100% 50%;
+  }
+}

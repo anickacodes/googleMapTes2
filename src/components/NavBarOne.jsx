@@ -7,14 +7,10 @@ const NavBarOne = () => {
         Site Name
       </Link>
       <ul>
-        {" "}
         <Link to="/"> Home </Link>
       </ul>
-
       <ul>
         <CustomLink to="/map">Map Vgi</CustomLink>
-
-        <CustomLink to="/about">About</CustomLink>
       </ul>
     </nav>
   );
